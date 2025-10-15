@@ -9,4 +9,6 @@
 
     <bean id="alien" class="com.kamajo.Alien">
     </bean>
+    <bean id ="ship" class="com.kamajo.SpaceShip"
+    ></bean>
 </beans>

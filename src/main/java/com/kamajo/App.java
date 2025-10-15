@@ -12,5 +12,7 @@ public class App
         //create a resource folder in the main then an xml file
         Alien alien = context.getBean(Alien.class);
         alien.code();
+        SpaceShip ship = context.getBean(SpaceShip.class);
+        ship.flyShip();
     }
 }
